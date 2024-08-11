@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FormValidation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/submit" method="POST" id="registrationForm">
+
+        <label for="firstname">FirstNme:</label>
+        <input type="text" id="firstname" name="firstname" required>
+
+        <label for="lastname">LastName:</label>
+        <input type="text" id="lastname" name="lastname" required>
+
+        <label for="username">UserName:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="pwd" required>
+
+        <label for="dob">DOB:</label>
+        <input type="text" id="dob" placeholder="YYYY-MM-DD" name="dob" required>
+
+        <label for="postalcode">Postalcode:</label>
+        <input type="text" id="postalcode" name="code" required>
+
+        <label for="Mobile">Mobile:</label>
+        <input type="text" id="mobile" name="mobiile" required>
+
+        <label for="mail">Mail-id:</label>
+        <input type="email" name="email" id="email" required>
+
+        <input type="submit" class="btn" id="btn" value="submit">
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

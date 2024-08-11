@@ -1,0 +1,48 @@
+body{
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+}
+h1{
+    color: purple;
+    font-size: 50px;
+    text-align: center;
+}
+form{
+    border: 1px solid black;
+    margin-top: 30px;
+    width: 350px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 300px;
+    border-radius: 5px;
+    height: 25px;
+    margin-bottom: 10px;
+    background: transparent;
+    border-color: purple;
+}
+label{
+    font-weight: bold;
+    color: purple;
+}
+.btn{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: purple;
+    font-weight: bold;
+    text-align: center;
+}
